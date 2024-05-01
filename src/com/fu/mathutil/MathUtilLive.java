@@ -13,7 +13,9 @@ public class MathUtilLive {
         
         System.out.println("expected: 5! = 120; actual: " + result);
         //Ky thua kiem thu phan mem : uoc luong gia tri tra ve cua ham la gi
-        MathUtil.getFactorial(-5);
+        
+        //Sửa code sau lần đầu 
+        System.out.println("expected: 1! = 1;   actual: " + MathUtil.getFactorial(1)); 
     }
     
 }
